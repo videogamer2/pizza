@@ -1,6 +1,5 @@
 body{
 	background-image: url("images/Bg.jpg");
-	/* background-repeat: no-repeat; (repetir fundo: não repetir)*/
 }
 
 .topnav {
@@ -75,8 +74,8 @@ body{
 	font-family: cursive;
   }
 
-  #addToppings{
-	/* padding-left:30px; (preenchimento à esquerda)*/
+  #addToppings2{
+	padding-left:30px;
 	width:150px;
 	height:100px;
 	border: none;
@@ -97,6 +96,7 @@ body{
     border: none;
     border-bottom: 1px solid rgb(223, 205, 205);
     outline: none;
+	margin-top: 100px;
  }
 
 [placeholder]:focus::-webkit-input-placeholder {
@@ -109,4 +109,7 @@ body{
 #im1{
 	width:100px;
 	height: 80px;
+}
+#displayAddedMenu {
+	margin-top: 200px;
 }

@@ -46,10 +46,9 @@ function getMenu(){
 }
 
 function addItem(){
-    var htmldata;
-    var item=document.getElementById("addItem").value;
         menuListArray.sort();
-        htmldata=""
+        var htmldata="";
+        var imgtags="<img id='im1' src='images/pizzaImg.png'>";
     for(var j=0;j<menuListArray.length;j++){
         htmldata=htmldata+imgtags+ menuListArray[j]+'<br>';
     }
